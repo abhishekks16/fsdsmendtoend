@@ -1,5 +1,6 @@
 pandas
 scikit-learn
 numpy
+seaborn
 
 #-e . # To install local package(i.e DimondPricePrediction)
