@@ -18,3 +18,6 @@ pip uninstall DimondPricePrediction # Uninstalls the package
 2 : -e . # Add this line inside the requirements.txt and run "pip install -r requirements.txt"
 ```
 
+## Data ingestion 
+> python src/DimondPricePrediction/pipelines/training_pipeline.py
+
