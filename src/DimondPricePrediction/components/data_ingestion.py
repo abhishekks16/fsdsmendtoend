@@ -1,9 +1,10 @@
 import pandas as pd
 import numpy as np
-from src.DimondPricePrediction.logger import logging
-from src.DimondPricePrediction.exception import customException
 import os
 import sys
+
+from src.DimondPricePrediction.logger import logging
+from src.DimondPricePrediction.exception import customException
 
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
@@ -12,10 +13,10 @@ from pathlib import Path
 
 
 class DataIngestionConfig:
-    artifact_path = os.path.join(os.getcwd(),"artifacts")
-    raw_data_path : str = os.path.join(artifact_path,"raw.csv")
-    train_data_path : str = os.path.join(artifact_path,"train.csv")
-    test_data_path : str = os.path.join(artifact_path,"test.csv")
+    #artifact_path = os.path.join(os.getcwd(),"artifacts")
+    raw_data_path : str = os.path.join("artifacts","raw.csv")
+    train_data_path : str = os.path.join("artifacts","train.csv")
+    test_data_path : str = os.path.join("artifacts","test.csv")
 
 
 class DataIngestion:
