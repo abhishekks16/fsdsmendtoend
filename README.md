@@ -10,6 +10,7 @@ git pull
 bash init_setup.sh # Note : use bash/Git bash/linux terminal
 python template.py # To create the project template using python script.
 ```
+
 ## Ways to install the local packages
 ```
 pip list # Lists all the packages installed
@@ -18,6 +19,8 @@ pip uninstall DiamondPricePrediction # Uninstalls the package
 2 : -e . # Add this line inside the requirements.txt and run "pip install -r requirements.txt"
 ```
 
-## Data ingestion 
+## Data training 
 > python src/DiamondPricePrediction/pipelines/training_pipeline.py
 
+## Running Flask app
+> python app.py
