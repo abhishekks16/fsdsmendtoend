@@ -1,9 +1,9 @@
 import os
 import sys
 import pandas as pd
-from src.DimondPricePrediction.exception import customException
-from src.DimondPricePrediction.logger import logging
-from src.DimondPricePrediction.utils.utils import load_object
+from src.DiamondPricePrediction.exception import customException
+from src.DiamondPricePrediction.logger import logging
+from src.DiamondPricePrediction.utils.utils import load_object
 
 class PredictPipeline:
     def __init__(self) -> None:

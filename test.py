@@ -1,4 +1,4 @@
-from src.DimondPricePrediction.pipelines.prediction_pipeline import CustomData
+from src.DiamondPricePrediction.pipelines.prediction_pipeline import CustomData
 
 
 custdataobj = CustomData(1.52,62.2,58.0,7.27,7.33,4.55,"Premium","F","VS2")

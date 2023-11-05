@@ -1,4 +1,4 @@
-from src.DimondPricePrediction.pipelines.prediction_pipeline import CustomData, PredictPipeline
+from src.DiamondPricePrediction.pipelines.prediction_pipeline import CustomData, PredictPipeline
 from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)

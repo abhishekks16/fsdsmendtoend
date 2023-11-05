@@ -4,8 +4,8 @@ import os
 import sys
 from dataclasses import dataclass
 
-from src.DimondPricePrediction.logger import logging
-from src.DimondPricePrediction.exception import customException
+from src.DiamondPricePrediction.logger import logging
+from src.DiamondPricePrediction.exception import customException
 
 from sklearn.impute import SimpleImputer ## Handling Missing Values
 from sklearn.preprocessing import StandardScaler # Handling Feature Scaling
@@ -14,7 +14,7 @@ from sklearn.preprocessing import OrdinalEncoder # Ordinal Encoding
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 
-from src.DimondPricePrediction.utils.utils import save_object
+from src.DiamondPricePrediction.utils.utils import save_object
 
 
 class DataTransformationConfig:

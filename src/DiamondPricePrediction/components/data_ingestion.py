@@ -3,8 +3,8 @@ import numpy as np
 import os
 import sys
 
-from src.DimondPricePrediction.logger import logging
-from src.DimondPricePrediction.exception import customException
+from src.DiamondPricePrediction.logger import logging
+from src.DiamondPricePrediction.exception import customException
 
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass

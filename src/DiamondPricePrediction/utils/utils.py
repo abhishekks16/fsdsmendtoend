@@ -3,8 +3,8 @@ import sys
 import pickle
 import numpy as np
 import pandas as pd
-from src.DimondPricePrediction.logger import logging
-from src.DimondPricePrediction.exception import customException
+from src.DiamondPricePrediction.logger import logging
+from src.DiamondPricePrediction.exception import customException
 
 from sklearn.metrics import r2_score, mean_absolute_error,mean_squared_error
 
