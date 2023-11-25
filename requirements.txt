@@ -4,4 +4,8 @@ numpy
 seaborn
 Flask
 
+# Stable version of mlflow
+mlflow == 2.2.2
+dvc
+
 -e . # To install local package(i.e DiamondPricePrediction)
