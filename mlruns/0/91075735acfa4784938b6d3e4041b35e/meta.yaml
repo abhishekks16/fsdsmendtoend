@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/iNeuron_Code/ML/fsdsmendtoend/mlruns/0/91075735acfa4784938b6d3e4041b35e/artifacts
+end_time: 1700881550605
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 91075735acfa4784938b6d3e4041b35e
+run_name: intrigued-donkey-737
+run_uuid: 91075735acfa4784938b6d3e4041b35e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700881545748
+status: 3
+tags: []
+user_id: abhisheks
