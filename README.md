@@ -24,3 +24,40 @@ pip uninstall DiamondPricePrediction # Uninstalls the package
 
 ## Running Flask app
 > python app.py
+
+
+
+## MLflow
+
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+##### local cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+
+![dagshub_config](extras/images/dagshub_config.png)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/abhishekks16/fsdsmendtoend.mlflow \
+MLFLOW_TRACKING_USERNAME=abhishekks16 \
+MLFLOW_TRACKING_PASSWORD=<password> \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/abhishekks16/fsdsmendtoend.mlflow
+export MLFLOW_TRACKING_USERNAME=abhishekks16
+export MLFLOW_TRACKING_PASSWORD=<password>
+
+```
+
+
+### DVC cmd
+- dvc init
+- dvc repro
+- dvc dag
