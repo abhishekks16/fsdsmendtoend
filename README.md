@@ -38,8 +38,7 @@ pip uninstall DiamondPricePrediction # Uninstalls the package
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-
-![dagshub_config](./extras/images/dagshub_config.jpg)
+![image](https://github.com/abhishekks16/fsdsmendtoend/assets/133478875/468f8cae-a014-4ec7-bef2-b90288ec14ce)
 
 MLFLOW_TRACKING_URI=https://dagshub.com/abhishekks16/fsdsmendtoend.mlflow \
 MLFLOW_TRACKING_USERNAME=abhishekks16 \
