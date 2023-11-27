@@ -33,13 +33,13 @@ pip uninstall DiamondPricePrediction # Uninstalls the package
 
 
 ##### local cmd
-- mlflow ui
+- mlflow ui -- Opens the `MlFlow GUI` dashboard.
 
 ### dagshub
 [dagshub](https://dagshub.com/)
 
 
-![dagshub_config](./extras/images/dagshub_config.png)
+![dagshub_config](./extras/images/dagshub_config.jpg)
 
 MLFLOW_TRACKING_URI=https://dagshub.com/abhishekks16/fsdsmendtoend.mlflow \
 MLFLOW_TRACKING_USERNAME=abhishekks16 \
