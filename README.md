@@ -60,3 +60,34 @@ export MLFLOW_TRACKING_PASSWORD=<password>
 - dvc init
 - dvc repro
 - dvc dag
+
+* Initialize the DVC, this will create the .dvc folder.
+```
+dvc init
+```
+
+* Remove the csv from git if it is already added. Because here we are using dvc to avoid the data storing in git.
+* Add the csv data to track from dvc
+```
+dvc add notebooks/data/gemstone.csv
+```
+* Store these dvc into the remote storage(S3,Azure blob etc)
+```
+dvc remote add -d remote_storage path_to_the_storage
+```
+* Below is the example to store in the local storage, make local folder as remote
+```
+dvc remote add -d remote_storage C:/iNeuron_Code/ML/mlflow-dvc-demo/remote
+```
+* Push the dvc files into the remote(here it is local remote)
+```
+dvc push
+```
+* To track the file changes/ reproducibility of the file as per our `dvc.yaml` file
+```
+dvc repro
+```
+* To see the dependencies of `dvc.yaml`
+```
+dvc dag
+```

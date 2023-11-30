@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/iNeuron_Code/ML/fsdsmendtoend/mlruns/0/1053fe9a2ccb435aaec3b8688b1e3c60/artifacts
+end_time: 1701305759088
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1053fe9a2ccb435aaec3b8688b1e3c60
+run_name: peaceful-colt-692
+run_uuid: 1053fe9a2ccb435aaec3b8688b1e3c60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701305750935
+status: 3
+tags: []
+user_id: abhisheks
